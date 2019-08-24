@@ -1,0 +1,203 @@
+#app
+  width 100%
+  height 100%
+  background #f4f4f4
+  .box
+    &.off
+      display none
+    //中间部分
+    .content
+      width 100%
+      height 100%
+      background #f4f4f4
+      padding-top 80px
+      padding-bottom 60px
+      box-sizing border-box
+      .main
+        display none
+        &.active
+          display block
+      //home样式
+      
+      //购物车样式
+      .GouWuChe
+        width 100%
+        height 50%
+        .GouWuChe-heart
+          position fixed
+          left 0
+          top 0
+          width 100%
+          height 80px
+          .GouWuChe-heart-top
+            width 100
+            height 40px
+            background white
+            display flex
+            padding 0 20px
+            justify-content space-between
+            align-items  center
+            span
+              font-size 16px
+            a
+              color red
+              font-size 16px
+          .GouWuChe-heart-bottom
+            width 100%
+            height 40px
+            .GouWuChe-heart-bottom-List
+              width 100%
+              height 40px
+              display flex
+              background white
+              .GouWuChe-heart-bottom-Item
+                width 32%
+                height 40px
+                font-size 12px
+                text-align center
+                line-height 40px
+                .iconfont
+                  color red
+        .GouWuChe-content
+          width 300px
+          height 300px
+          margin 100px auto
+          display flex
+          flex-direction column
+          justify-content center
+          align-items center
+          img
+            width 35%
+            height 120px
+          .GouWuChe-content-denglu
+            display flex
+            flex-direction column
+            width 100%
+            height 80px
+            align-items center
+            span
+              color darkgrey
+              font-size 14px
+            button
+              width 200px
+              background darkred
+              height 40px
+              border 1px solid darkred
+              margin-top 30px
+              border-radius 10px
+              color white
+              font-weight bold
+
+
+
+
+
+    //底部导航
+    .foot
+      width 100%
+      height 60px
+      position fixed
+      right 0
+      bottom 0
+      display flex
+      z-index 5
+      background white
+      .footItem
+        width 20%
+        height 60px
+        display flex
+        flex-direction column
+        align-items center
+        justify-content space-around
+        &.high
+          color red
+        .iconSpan
+          .iconfont
+            font-size 24px
+
+
+
+  //登录页面
+  .login
+    width 100%
+    height 100%
+    background #f4f4f4
+    &.off
+      display none
+    .login-heard
+      width 100%
+      height 60px
+      background white
+      display flex
+      align-items  center
+      padding 0 15px
+      justify-content space-between
+      box-sizing border-box
+      .YanXuan
+        width 50%
+        height 60px
+        text-align center
+        line-height 60px
+        font-size 20px
+        margin-left 40px
+      .span1
+        .icon-iconfontzhizuobiaozhun023101
+          font-size 25px
+      .span2
+        width 20%
+        height 60px
+        line-height 60px
+        .icon-sousuo
+          font-size 25px
+          margin-right 10px
+        .icon-gouwuchekong
+          font-size 25px
+
+
+
+    .login-content
+      width 100%
+      height 80%
+      text-align center
+      .img
+        width 100%
+        height 240px
+        text-align center
+        img
+          height 50px
+          margin 75px 0
+      button
+        width 350px
+        height 50px
+        border 1px solid red
+        outline none
+        border-radius 5px
+        font-size 14px
+        font-weight bold
+        color red
+        background white
+        margin-bottom 10px
+        &.active
+          background red
+          color white
+    .login-foot
+      width 100%
+      height 40px
+      .login-foot-List
+        width 300px
+        height 40px
+        margin 0 auto
+        display flex
+        .login-foot-List-Item
+          width 100px
+          height 20px
+          text-align center
+          color darkgrey
+          line-height 20px
+          font-size 18px
+        .border
+          border-left 1px solid darkgrey
+          border-right 1px solid darkgrey
+
+
+

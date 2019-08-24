@@ -1,0 +1,220 @@
+#app {
+  width: 100%;
+  height: 100%;
+  background: #f4f4f4;
+}
+#app .box.off {
+  display: none;
+}
+#app .box .content {
+  width: 100%;
+  height: 100%;
+  background: #f4f4f4;
+  padding-top: 80px;
+  padding-bottom: 60px;
+  box-sizing: border-box;
+}
+#app .box .content .main {
+  display: none;
+}
+#app .box .content .main.active {
+  display: block;
+}
+#app .box .content .GouWuChe {
+  width: 100%;
+  height: 50%;
+}
+#app .box .content .GouWuChe .GouWuChe-heart {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 80px;
+}
+#app .box .content .GouWuChe .GouWuChe-heart .GouWuChe-heart-top {
+  width: 100;
+  height: 40px;
+  background: #fff;
+  display: flex;
+  padding: 0 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+#app .box .content .GouWuChe .GouWuChe-heart .GouWuChe-heart-top span {
+  font-size: 16px;
+}
+#app .box .content .GouWuChe .GouWuChe-heart .GouWuChe-heart-top a {
+  color: #f00;
+  font-size: 16px;
+}
+#app .box .content .GouWuChe .GouWuChe-heart .GouWuChe-heart-bottom {
+  width: 100%;
+  height: 40px;
+}
+#app .box .content .GouWuChe .GouWuChe-heart .GouWuChe-heart-bottom .GouWuChe-heart-bottom-List {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  background: #fff;
+}
+#app .box .content .GouWuChe .GouWuChe-heart .GouWuChe-heart-bottom .GouWuChe-heart-bottom-List .GouWuChe-heart-bottom-Item {
+  width: 32%;
+  height: 40px;
+  font-size: 12px;
+  text-align: center;
+  line-height: 40px;
+}
+#app .box .content .GouWuChe .GouWuChe-heart .GouWuChe-heart-bottom .GouWuChe-heart-bottom-List .GouWuChe-heart-bottom-Item .iconfont {
+  color: #f00;
+}
+#app .box .content .GouWuChe .GouWuChe-content {
+  width: 300px;
+  height: 300px;
+  margin: 100px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#app .box .content .GouWuChe .GouWuChe-content img {
+  width: 35%;
+  height: 120px;
+}
+#app .box .content .GouWuChe .GouWuChe-content .GouWuChe-content-denglu {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 80px;
+  align-items: center;
+}
+#app .box .content .GouWuChe .GouWuChe-content .GouWuChe-content-denglu span {
+  color: #a9a9a9;
+  font-size: 14px;
+}
+#app .box .content .GouWuChe .GouWuChe-content .GouWuChe-content-denglu button {
+  width: 200px;
+  background: #8b0000;
+  height: 40px;
+  border: 1px solid #8b0000;
+  margin-top: 30px;
+  border-radius: 10px;
+  color: #fff;
+  font-weight: bold;
+}
+#app .box .foot {
+  width: 100%;
+  height: 60px;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  z-index: 5;
+  background: #fff;
+}
+#app .box .foot .footItem {
+  width: 20%;
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+#app .box .foot .footItem.high {
+  color: #f00;
+}
+#app .box .foot .footItem .iconSpan .iconfont {
+  font-size: 24px;
+}
+#app .login {
+  width: 100%;
+  height: 100%;
+  background: #f4f4f4;
+}
+#app .login.off {
+  display: none;
+}
+#app .login .login-heard {
+  width: 100%;
+  height: 60px;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  padding: 0 15px;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+#app .login .login-heard .YanXuan {
+  width: 50%;
+  height: 60px;
+  text-align: center;
+  line-height: 60px;
+  font-size: 20px;
+  margin-left: 40px;
+}
+#app .login .login-heard .span1 .icon-iconfontzhizuobiaozhun023101 {
+  font-size: 25px;
+}
+#app .login .login-heard .span2 {
+  width: 20%;
+  height: 60px;
+  line-height: 60px;
+}
+#app .login .login-heard .span2 .icon-sousuo {
+  font-size: 25px;
+  margin-right: 10px;
+}
+#app .login .login-heard .span2 .icon-gouwuchekong {
+  font-size: 25px;
+}
+#app .login .login-content {
+  width: 100%;
+  height: 80%;
+  text-align: center;
+}
+#app .login .login-content .img {
+  width: 100%;
+  height: 240px;
+  text-align: center;
+}
+#app .login .login-content .img img {
+  height: 50px;
+  margin: 75px 0;
+}
+#app .login .login-content button {
+  width: 350px;
+  height: 50px;
+  border: 1px solid #f00;
+  outline: none;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #f00;
+  background: #fff;
+  margin-bottom: 10px;
+}
+#app .login .login-content button.active {
+  background: #f00;
+  color: #fff;
+}
+#app .login .login-foot {
+  width: 100%;
+  height: 40px;
+}
+#app .login .login-foot .login-foot-List {
+  width: 300px;
+  height: 40px;
+  margin: 0 auto;
+  display: flex;
+}
+#app .login .login-foot .login-foot-List .login-foot-List-Item {
+  width: 100px;
+  height: 20px;
+  text-align: center;
+  color: #a9a9a9;
+  line-height: 20px;
+  font-size: 18px;
+}
+#app .login .login-foot .login-foot-List .border {
+  border-left: 1px solid #a9a9a9;
+  border-right: 1px solid #a9a9a9;
+}
